@@ -63,6 +63,15 @@ header {
   margin:auto;
 }
 
+#video h2{
+  padding: 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size:44px;
+  color: #343642;
+  font-weight: 300;
+}
+
 #desc{
   display: block;
   max-width: 600px;
@@ -70,7 +79,7 @@ header {
   margin:auto;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 12pt;
+  font-size: 40px;
   text-align:justify;
 }
 
@@ -116,6 +125,13 @@ footer {
   margin:auto;
   width:100%;
 
+}
+
+footer a {
+  display: inline-block;
+  color:#f2ebc7;
+  text-decoration: none;
+  border-botton: 1px solid #ff0;
 }
 
 #btn {
