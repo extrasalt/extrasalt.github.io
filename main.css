@@ -77,10 +77,9 @@ header {
   max-width: 600px;
   padding:30px;
   margin:auto;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 30px;
-  line-height:1em;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 400;
+  font-size: 12pt;
   text-align:justify;
 }
 
