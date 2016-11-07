@@ -77,7 +77,7 @@ header {
   max-width: 600px;
   padding:30px;
   margin:auto;
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 12pt;
   text-align:justify;
@@ -116,9 +116,9 @@ header {
 
 footer {
 
-  color:#f2ebc7;
+  background:#f2ebc7;
 
-  background: #979c9c;
+  color: #979c9c;
   font-family: 'Lato', sans-serif;
   text-align:center;
   padding: 20px 0;
@@ -129,7 +129,7 @@ footer {
 
 footer a {
   display: inline-block;
-  color:#f2ebc7;
+  color:#979c9c;
   text-decoration: none;
   border-botton: 1px solid #ff0;
 }
