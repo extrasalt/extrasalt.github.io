@@ -61,6 +61,11 @@ header {
   justify-content: center;
 }
 
+#fauxconfig {
+  margin: 10px;
+  text-align: right;
+}
+
 .container {
   display:table-cell;
   vertical-align: middle;
@@ -165,4 +170,19 @@ footer a {
 
 .item:hover > .icon {
   background: #eee;
+}
+
+#fauxconfig > button {
+  border: 1px solid #eee;
+  padding: 5px 10px 5px 10px;
+  border-radius: 3px;
+  margin-right: 20px
+}
+#fauxconfig > input {
+  padding: 5px 10px 3px 10px;
+  border:0;
+  border-bottom:2px solid #eee;
+  margin-right: 20px;
+  margin-top:10px;
+  width: 150px
 }
