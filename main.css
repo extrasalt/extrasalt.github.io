@@ -8,10 +8,10 @@ header {
   position: absolute;
   top:0;
   background: #f17370;
-  font-family: Raleway, sans-serif;
+  font-family: sans-serif;
   width:100%;
   padding: 30px 0;
-  color: #fafafa;
+  color: #fff;
   margin:0 auto;
 
 }
@@ -50,8 +50,7 @@ header {
   max-width: 600px;
   padding:30px;
   margin:auto;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-family:sans-serif;
   font-size: 12pt;
   text-align:justify;
 }
@@ -91,7 +90,7 @@ footer {
   background:#f26663;
 
   color: #fff;
-  font-family: Raleway, sans-serif;
+  font-family: sans-serif;
   text-align:center;
   padding: 20px 0;
   margin:auto;
