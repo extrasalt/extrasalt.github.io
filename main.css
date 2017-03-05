@@ -186,3 +186,9 @@ footer a {
   margin-top:10px;
   width: 150px
 }
+
+@media screen and (orientation: portrait){
+  #fauxwindow{
+    width: 100%;
+  }
+}
