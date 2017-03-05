@@ -39,6 +39,8 @@ header {
   border-radius: 7px 7px 0 0;
   overflow: hidden;
 
+  box-shadow: 0 -5px 15px #d15350;
+
 }
 
 #fauxtitlebar{
