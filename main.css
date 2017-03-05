@@ -45,33 +45,6 @@ header {
 }
 
 
-
-#video{
-  background: #f2ebc7;
-  display: table;
-  margin: auto;
-  width:100%;
-  height: 100%;
-}
-
-#video iframe{
-  display:block;
-  width:100%;
-  height: 100%;
-  max-width:500px;
-  max-height:345px;
-  margin:auto;
-}
-
-#video h2{
-  padding: 30px;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size:44px;
-  color: #343642;
-  font-weight: 300;
-}
-
 #desc{
   display: block;
   max-width: 600px;
