@@ -118,7 +118,7 @@ footer {
   background:#f26663;
 
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: Raleway, sans-serif;
   text-align:center;
   padding: 20px 0;
   margin:auto;
@@ -128,22 +128,21 @@ footer {
 
 footer a {
   display: inline-block;
-  color:#979c9c;
+  color:white;
   text-decoration: none;
-  border-botton: 1px solid #ff0;
 }
 
 #btn {
   display:block;
   text-decoration: none;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif;
   font-size: 14px;
   padding: 25px;
   margin:50px auto;
-  background:#f2ebc7;
-  color:222;
+  background:#f26663;
+  color:white;
   border-radius: 2px;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   width: 100px;
 }
