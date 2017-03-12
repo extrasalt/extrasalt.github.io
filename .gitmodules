@@ -1,0 +1,3 @@
+[submodule "dockerslides"]
+	path = docker-meetup-mar2017
+	url = https://github.com/extrasalt/dockerslides
