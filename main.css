@@ -197,8 +197,9 @@ section {
 
 .herotextinner {
   width: 600px;
-    margin: 20px;
+  margin: 20px;
   padding: 10px;
+  margin-top: 10vh;
 }
 
 .desc{
@@ -218,5 +219,15 @@ section {
   color:white;
   text-decoration: none;
   border-bottom: 1px dashed white;
+}
+
+@media screen and (orientation: portrait) {
+    .fauxwindow {
+      width: 100%
+    }
+
+    section {
+      height: 179vw
+    }
 }
 
