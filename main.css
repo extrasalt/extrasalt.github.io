@@ -104,7 +104,7 @@ body {
   border: 1px solid #eee;
   padding: 5px 10px 5px 10px;
   border-radius: 3px;
-  margin-right: 20px
+  margin-right: 20px;
 }
 #fauxconfig > input {
   padding: 5px 10px 3px 10px;
@@ -113,12 +113,6 @@ body {
   margin-right: 20px;
   margin-top:10px;
   width: 150px;
-}
-
-@media screen and (orientation: portrait){
-  #fauxwindow{
-    width: 100%;
-  }
 }
 
 
