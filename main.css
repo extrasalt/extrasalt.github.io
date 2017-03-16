@@ -159,13 +159,10 @@ section {
 /*Skedole BEGIN*/
 
 #skedole {
-  color:black;
+  background: #2c3e50;
+  color:white;
 }
 
-#skedole a {
-  color:black;
-  border-color: black;
-}
 
 #skedole .fauxwindow {
    box-shadow: 0 -2px 28px rgba(0,0,0,0.25), 0 -2px 10px rgba(0,0,0,0.22);
