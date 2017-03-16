@@ -100,13 +100,13 @@ body {
   background: #eee;
 }
 
-#fauxconfig > button {
+.fauxconfig > button {
   border: 1px solid #eee;
   padding: 5px 10px 5px 10px;
   border-radius: 3px;
   margin-right: 20px;
 }
-#fauxconfig > input {
+.fauxconfig > input {
   padding: 5px 10px 3px 10px;
   border:0;
   border-bottom:2px solid #eee;
