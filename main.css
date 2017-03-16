@@ -164,19 +164,12 @@ body {
   width: 100px;
 }
 
-footer {
 
-  background:#f26663;
-  text-align:center;
-  padding: 20px 0;
-  margin:auto;
-  width:100%;
 
-}
-
-footer a {
+#desc a {
   display: inline-block;
   color:white;
   text-decoration: none;
+  border-bottom: 1px dashed white;
 }
 
