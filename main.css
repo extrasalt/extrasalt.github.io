@@ -61,19 +61,7 @@ body {
   text-align: right;
 }
 
-#btn {
-  display:block;
-  text-decoration: none;
-  text-align: center;
-  font-size: 14px;
-  padding: 25px;
-  margin:50px auto;
-  background:#f26663;
-  color:white;
-  border-radius: 2px;
-  border: 2px solid #fff;
-  width: 100px;
-}
+
 
 .item {
   width: 160px;
@@ -166,6 +154,20 @@ body {
   font-size:14pt;
   text-align:center;
   font-weight:400;
+}
+
+#btn {
+  display:block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  padding: 25px;
+  margin:50px auto;
+  background:#f26663;
+  color:white;
+  border-radius: 2px;
+  border: 2px solid #fff;
+  width: 100px;
 }
 
 footer {
