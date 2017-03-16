@@ -149,6 +149,11 @@ section {
   padding: 30px;
 }
 
+#podder .desc a {
+  color: black;
+  border-color: black;
+}
+
 /*podder END*/
 
 .herotextinner {
