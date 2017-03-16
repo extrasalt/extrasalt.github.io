@@ -14,10 +14,7 @@ body {
 
 }
 
-/*Circle BEGIN*/
-
-#circle {
-  background: #f17370;
+section {
   display:flex;
   width:100%;
   height:100%;
@@ -25,6 +22,14 @@ body {
   justify-content: space-between;
   align-items: center;
 
+}
+
+/*Circle BEGIN*/
+
+
+
+#circle {
+  background: #f17370;
 }
 
 .fauxwindow{
@@ -116,6 +121,20 @@ body {
 
 
 /*Circle END*/
+
+/*podder BEGIN*/
+
+#podder {
+  background: #fff;
+  color: #000;
+}
+
+#podder .fauxwindow {
+  background: #e74c3c;
+  color:white;
+  box-shadow: 0 -5px 15px #ccc;
+
+}
 
 .herotextinner {
   width: 600px;
