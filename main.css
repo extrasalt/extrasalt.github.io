@@ -125,7 +125,7 @@ section {
 
 #podder {
   background: #fff;
-  color: #000;
+  color: #333;
 }
 
 #podder .fauxwindow {
@@ -232,7 +232,8 @@ section {
 }
 
 #mohan {
-  color: black;
+  background: #333;
+  color: white;
   text-align: center;
   font-family: monospace;
   display: flex;
@@ -241,8 +242,12 @@ section {
   margin-top: -30px;
 }
 
+#mohan .logo {
+  text-align: justify;
+}
+
 #mohan .desc {
-  text-align: center;
+  text-align: justify;
   font-family: monospace;
 }
 
