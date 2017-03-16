@@ -156,6 +156,20 @@ section {
 
 /*podder END*/
 
+/*Skedole BEGIN*/
+
+#skedole {
+  color:black;
+}
+
+#skedole a {
+  color:black;
+  border-color: black;
+}
+
+
+/*Skedole END*/
+
 .herotextinner {
   width: 600px;
     margin: 20px;
