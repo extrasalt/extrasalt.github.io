@@ -127,6 +127,7 @@ section {
 #podder {
   background: #fff;
   color: #333;
+  justify-content: center;
 }
 
 #podder .fauxwindow {
