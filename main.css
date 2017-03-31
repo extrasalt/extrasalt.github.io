@@ -1,7 +1,7 @@
 body {
   margin: 0;
   color: white;
-  font-family: sans-serif;
+  font-family: 'Muli', sans-serif;
 
 }
 
@@ -30,6 +30,7 @@ section {
 
 #circle {
   background: #f17370;
+  font-family: 'Muli', sans-serif;
 }
 
 .fauxwindow{
@@ -185,7 +186,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  font:bold 30px Arial;
+  font: 30px 'Muli', sans-serif;
   color:white;
   height: 100%;
   width: 50%;
@@ -203,7 +204,7 @@ section {
 }
 
 .desc{
-  font: bold 16px Arial;
+  font: 16px 'Muli', sans-serif;
   text-align:justify;
 }
 
@@ -232,10 +233,10 @@ section {
 }
 
 #mohan {
-  background: #333;
-  color: white;
+  background: #fff;
+  color: #444;
   text-align: center;
-  font-family: monospace;
+  font-family: 'Muli', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -248,6 +249,6 @@ section {
 
 #mohan .desc {
   text-align: justify;
-  font-family: monospace;
+  font-family: 'Muli', sans-serif;
 }
 
