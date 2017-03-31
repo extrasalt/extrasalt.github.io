@@ -29,7 +29,7 @@ section {
 
 
 #circle {
-  background: #f17370;
+  color: #333;
   font-family: 'Muli', sans-serif;
 }
 
@@ -39,7 +39,7 @@ section {
   height: 50%;
   border-radius: 7px 7px 3px 3px;
   overflow: hidden;
-  box-shadow: 0 -5px 15px #d15350;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
 }
 
