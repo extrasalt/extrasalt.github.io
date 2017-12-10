@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title> Resume</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.0/markdown-it.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto" rel="stylesheet">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,71 +67,17 @@ p {
 	</head>
 	<body>
 		<a href="/contact" id="contact">Contact </a>
-<h1>Mohanarangan Muthukumar</h1>
+	<div id="resume"></div>
 
-<p>Self taught programmer - Distributed systems - Go - Javascript - Likes to build machines - Web Development - History buff </p>
-
-<h1>Projects</h1>
-
-<h2>Podder</h2>
-
-<p><a href="http://github.com/extrasalt/podder">Podder</a> is a multi-tenant baremetal PaaS that runs on top of Kubernetes. It can deploy any go binary that is dropped into it, as a service if it exposes the HTTP port. Podder is an attempt at being the userspace of a distributed operating system. </p>
-
-<h2>Skedole</h2>
-
-<p><a href="http://github.com/extrasalt/skedole">Skedole</a> is a node.js app that connects to your Google calendar to help you find available slots to schedule your tasks. UI supports both keyboard and mouse input to assign tasks to slots.  </p>
-
-<h2>Distbox</h2>
-
-<p><a href="http://github.com/extrasalt/distbox">Distbox</a> is a personal file storage service backed by IPFS. It is resilent in a way that as long as you have the keys, you can access your files from any independent distbox provider. </p>
-
-<h2>Circle</h2>
-
-<p>From "The Life Changing Magic of Tidying up", I learnt how reducing clutter can significantly improve our lives. Since I spend my life on a computer, I wrote an application that can organize my folders based on MIME types, regular expressions or file extensions. <a href="http://github.com/extrasalt/circle">Circle</a> was one of the finalists for <a href="http://gophergala.com/blog/gopher/gala/2015/01/31/finalists/">GopherGala</a> 2015. </p>
-
-<h1>Community Activities</h1>
-
-<p>Organizer of the Chennai Docker community | Since Aug 2016 <br />
-Co-Organizer of Chennai Go Community  | Since Jan 2017</p>
-
-<h1>Talks</h1>
-
-<h3>The State of the containers</h3>
-
-<p><em>Chennai Docker meetup, November 2016</em> <br />
-The sudden rise of containers has led to a lot of bad practices. The talk explained what containers were, how they work internally, how to best avoid inefficient docker setups and how persistent storage works in stateless services. </p>
-
-<h3>Container Orchestration with Kubernetes and Swarm</h3>
-
-<p><em>Chennai Docker meetup, March 2017</em> <br />
-Introduction to orchestration and feature comparison of Swarm, Mesos and Kubernetes. Explained different Kubernetes Objects and demoed load balancing in a Kubernetes service. <a href="http://slides.com/extrasalt/deck">Slides</a> </p>
-
-<h3>Building a baremetal Go PaaS with Kubernetes</h3>
-
-<p><em>Chennai Go meetup, March 2017</em> <br />
-Deploying a fully packaged go binary still involves a lot of boilerplate. Presented an alternative where a simple Kubernetes service can deploy any go binary dropped into it and explained how it can be recreated to fit particular needs. </p>
-
-<h3>Reclaiming your infrastructure with Kubernetes</h3>
-
-<p><em>Indian Linux User Group Chennai, March 2017</em> <br />
-There is a sentiment in the free software community that IaaS runs largely against the values of Free Software. A federated solution using Kubernetes brings parts of the infrastructure back in-house, reducing costs, without compromising on scalability. </p>
-
-<h3>Docker internals</h3>
-<p><em>Chennai Docker meetup, June 2017</em> <br />
-Explored how docker works internally and built a self-isolated go program to demonstrate systemcall interface used to create linux containers.</p>
-
-<h1>Formal Education</h1>
-
-<p>Anna University | Mohamed Sathak A.J College of Engineering |
-Bachelor of Engingeering, Computer Science | 2013 - 2017</p>
-
-<h1>Skills</h1>
-
-<ul>
-<li>Programming: Go, Javascript, Python, Ruby, Scala</li>
-<li>Distributed systems: gRPC, Kubernetes, Docker</li>
-<li>Data Engineering: Scalding, Spark </li>
-<li>Design: Web, Typography</li>
-<li>Public speaking. </li>
-</ul>
+	<script>
+		var a = document.getElementById("resume")
+		var md = window.markdownit()
+		var xhr = new XMLHttpRequest()
+		xhr.onload = function(){
+			a.innerHTML = md.render(this.responseText)
+			console.log()
+		}
+		xhr.open("GET","resume.md")
+		xhr.send()	
+	</script>
 </body></html>
