@@ -30,8 +30,8 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background="#e74c3c">
-					<p>Container Orchestration</p>
+				<section data-background="#ecf0f1">
+					<p>Data processing in Kubernetes</p>
 					<small> Kubernetes + CNCF : December 2017</small>
 				</section>
 				<section>
@@ -42,19 +42,109 @@
 				</section>
 
 				<section>
-					<h3>What is orchestration?</h3>
-					<ul>
-						<li>Manage resources.</li>
-						<li>Schedule tasks</li>
-						<li>Monitoring</li>
-						<li>Managing the tasks</li>
-					</ul>
+						<section>
+								<img src="images/docker.png" width="200px" height="200px">
+						</section>
+					<section>
+						VMs vs Containers.
+					</section>
+					<section>
+						Copy on write file systems.
+					</section>
+				</section>
+
+				
+
+				<section>
+					<section>
+							<img src="images/kube.png" width="200px" height="200px">
+					</section>
+					<section>
+						Kubernetes 101
+					</section>
 				</section>
 
 				<section>
-					<img src="images/kube.png" width="200px" height="200px">
+					<section>
+						Kubernetes is an operating system
+					</section>
+
+					<section>
+						<h3>What is orchestration?</h3>
+						<ul>
+							<li>Manage resources.</li>
+							<li>Schedule tasks</li>
+							<li>Monitoring</li>
+							<li>Managing the tasks</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>What do operating systems do?</h3>
+						<ul>
+							<li>Manage resources.</li>
+							<li>Schedule tasks</li>
+							<li>Monitoring</li>
+							<li>Managing the tasks</li>
+						</ul>
+					</section>
+					
+					<section>
+							We must treat the datacenter itself as one massive warehouse-scale computer (WSC) 
+							<small>Luiz André Barroso, Urs Hölzle Datacenter, The Data Center as a Computer</small>
+					</section>
 				</section>
 
+				<section>
+					<section>
+						What do data processing frameworks do?
+					</section>
+				</section>
+
+				<section>
+					<section>
+						Ontogeny Recapitulates Phylogeny <br>
+						<small>Darwin</small>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						Running Hadoop on top of Kubernetes doesn't sound right
+					</section>
+					<section>
+						Scalability, At What Cost?
+					</section>
+					<section>
+						Or..
+					</section>
+				</section>
+
+				<section>
+					<section>Pachyderm</section>
+					<section>PFS + PPS</section>
+					<section>
+						<h2>Pachyderm File system</h2>
+						<ul>
+							<li>Copy on Write</li>
+							<li>Distributed</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Pachyderm Pipeline System</h2>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Reproducibility</h2>
+						<ul>
+							<li>Provenance</li>
+							<li>Consistent</li>
+							<li>Data versioning</li>
+						</ul>
+					</section>
+				</section>
 
 				<section>
 					<p>@extrasaltorg</p>
