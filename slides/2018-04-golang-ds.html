@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Slides</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<style type="text/css">
+			.reveal section img { background:none; border:none; box-shadow:none; }
+
+			#podder { font:bold 60px Arial; }
+		</style>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="#ecf0f1">
+					<p>Datastructures in Go, The right way</p>
+					<small> Chennai Golang Meetup : April 2018</small>
+				</section>
+				<section>
+					<h2>Who am I?</h2>
+					<p>Mohanarangan Muthukumar</p>
+					<p><small>github.com/extrasalt</small></p>				
+					<p><small>extrasalt.org</small></p>
+				</section>
+				<section>
+					<section>
+						How do you "use" Datastructures in other languages?
+					</section>
+
+					<section>
+						<h3>You can do that in Go</h3>
+						<p>https://github.com/emirpasic/gods</p>
+					</section>
+
+					<section>
+						<h3>The end?</h3>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						Uh, we have a problem. 
+					</section>
+					<section>
+						No Generics, lol. 
+					</section>
+				</section>
+
+				<section>
+					<section>
+						Now that forces you to rethink the way you do OOP
+					</section>
+				</section>
+
+				<section>
+					<section>
+						No generics = No futures, promises. 
+					</section>
+					<section>
+						Old habits die hard, and people tend to bring bad habits from other paradigms when they come to golang <br>
+						<small>Psst, python concurrency primitives</small> <br>
+						<small>Pssst, Node.js after promises</small>
+					</section>
+				</section>
+
+				<section>
+					<section>Reusablity Fairytale</section>
+					<section>You create your own version of dll hell</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Wirth's law</h2>
+						<p> software is getting slower more rapidly than hardware becomes faster </p>
+					</section>
+					<section>
+						<p>One of the primary reasons is using bad data structures</p> <br>
+						<small> N is small, almost always</small>
+					</section>
+					<section>
+						Optimization are dependent on the data
+						<small>You have to make it less generic, eventually.</small>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>The Right Way</h2>
+						<p> So, what should you do now? </p>
+					</section>
+					<section>
+						<p>Write your structs yourself</p> <br>
+						<small> You might have to copy-paste a few line sometimes, or use templates</small>
+					</section>
+					<section>
+						<p>Maps and slices are mostly good enough</p>
+					</section>
+					<section>
+						<h2>[]byte</h2>
+						<small>and unbox it back</small>
+					</section>
+				</section>
+
+				<section>
+					<h2>簡素</h2>
+					<small>simplicity is elimination</small>
+					<p>Thank you. </p>
+				</section>
+
+
+				<section>
+
+					<p>twitter: 	@extrasaltorg</p>
+					<p>github: 		@extrasalt</p>
+					
+
+				</section>
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
