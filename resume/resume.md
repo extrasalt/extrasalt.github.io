@@ -2,6 +2,26 @@ Mohanarangan Muthukumar
 =======================
 Self taught programmer - Distributed systems - Go - Javascript - Likes to build machines - Web Development - History buff 
 
+Professional Experience
+==========
+
+**Software Engineer - II, Avalara**
+Feb 2019 - Present
+
+**Software Engineer, Indix (Acquired by Avalara)**
+June 2017 - Feb 2019
+
+* Part of the Ingestion team responsible for crawling 20 million webpages a day. 
+* Worked extensively in Scala on JVM, Hadoop (Scalding), Kafka & Kafka streams. 
+* Worked sparsely on Spark. 
+* Also responsible for maintenance and new features on several auxillary apps with a diverse stack that includes: Scala, dropwizard, Node.js on the backend and React.js in the frontend
+* Also responsible for the uptime of these apps. The applications were deployed on Mesos/Marathon. 
+
+
+# Formal Education
+**Anna University** 
+Bachelor of Engingeering, Computer Science | 2013 - 2017
+
 Projects
 =========
 
@@ -50,10 +70,6 @@ There is a sentiment in the free software community that IaaS runs largely again
 _Chennai Docker meetup, June 2017_      
 Explored how docker works internally and built a self-isolated go program to demonstrate systemcall interface used to create linux containers.
 
-
-# Formal Education
-Anna University | Mohamed Sathak A.J College of Engineering |
-Bachelor of Engingeering, Computer Science | 2013 - 2017
 
 # Skills
 - Programming: Go, Javascript, Python, Ruby, Scala.
