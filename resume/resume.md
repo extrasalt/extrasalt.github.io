@@ -1,6 +1,6 @@
 Mohanarangan Muthukumar
 =======================
-Self taught programmer - Distributed systems - Go - Javascript - Likes to build machines - Web Development - History buff 
+I am a software engineer interested in Distributed systems, Data engineering and Operating systems. I started programming in Javascript and  Ruby on Rails in 2009, when I was 14. I have since used Ruby, Node.js and Go for my hobby projects and used Scala extensively at work. 
 
 Professional Experience
 ==========
