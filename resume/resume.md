@@ -5,10 +5,14 @@ Self taught programmer - Distributed systems - Go - Javascript - Likes to build 
 Professional Experience
 ==========
 
-**Software Engineer - II, Avalara**
+### Software Engineer - II, Avalara
+
 Feb 2019 - Present
 
-**Software Engineer, Indix (Acquired by Avalara)**
+* Part of the team managing the Ingestion of tax rates.
+
+### Software Engineer, Indix (Acquired by Avalara)
+
 June 2017 - Feb 2019
 
 * Part of the Ingestion team responsible for crawling 20 million webpages a day. 
@@ -19,7 +23,8 @@ June 2017 - Feb 2019
 
 
 # Formal Education
-**Anna University** 
+
+### Anna University
 Bachelor of Engingeering, Computer Science | 2013 - 2017
 
 Projects
