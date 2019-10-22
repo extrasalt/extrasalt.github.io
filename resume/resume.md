@@ -27,7 +27,7 @@ June 2017 - Feb 2019
 ### Anna University
 Bachelor of Engingeering, Computer Science | 2013 - 2017
 
-Projects
+OSS
 =========
 
 Podder
