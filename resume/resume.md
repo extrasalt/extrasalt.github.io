@@ -1,8 +1,17 @@
 # Mohanarangan Muthukumar
 
-Mohan is a Software Engineer at Avalara R&D. He's part of a highly agile team tasked with automating sales tax changes. He previously was with Indix, the largest product database company later acquired by Avalara. At Indix, he worked with large datasets, building an maintaining large distributed systems that crawled and parsed 2 billion products.
+Mohan is a Software Engineer at Avalara R&D. He's part of a fast-paced distributed team tasked with automating sales tax changes. He was previously with Indix, the largest product database company later acquired by Avalara. At Indix, he worked with large datasets, building and maintaining large distributed systems that crawled and parsed 2 billion products.
 
 Mohan has also been organizing the Docker and Kubernetes Communities in Chennai since 2016. He's given several talks in the space including: Containerization, Container internals, Kubernetes Internals, Data processing in Kubernetes, Terraform and AWS firecracker microVMs.
+
+# Skills
+
+- Kafka: Built streaming applications with both Scala and Typescript.
+- Kubernetes: Containerized several workloads. Involved with Docker, Kubernetes and Go (Golang) community since 2015.
+- AWS: Worked extensively with AWS and Terraform
+- APIs: Built several REST services on JVM and NodeJS.
+- Public Speaking: Hosted and Presented at several tech events.
+- Distributed Systems.
 
 # Professional Experience
 
