@@ -2,26 +2,43 @@
 
 Mohan is a Software Engineer at Avalara R&D. He's part of a highly agile team tasked with automating sales tax changes. He previously was with Indix, the largest product database company later acquired by Avalara. At Indix, he worked with large datasets, building an maintaining large distributed systems that crawled and parsed 2 billion products.
 
-Mohan has also been organizing the Docker and Kubernetes Communities in Chennai since 2014. He's given several talks in the space including: Containerization, Container internals, Kubernetes Internals, Data processing in Kubernetes, Terraform and AWS firecracker microVMs.
+Mohan has also been organizing the Docker and Kubernetes Communities in Chennai since 2016. He's given several talks in the space including: Containerization, Container internals, Kubernetes Internals, Data processing in Kubernetes, Terraform and AWS firecracker microVMs.
 
 # Professional Experience
 
-### Software Engineer - II, Avalara
+### Software Engineer II , Avalara
 
 Feb 2019 - Present
 Avalara is a cloud-based compliance provider with a stated goal of being part of every transaction. This involves helping our customers respond to changes in tax rates, laws and levies.
 
-- Part of the team managing the Ingestion of tax rates.
+My team builds automation and tooling that would help minimize the human effort involved in responding to tax law changes. We are also responsible for integrating NLP models with the internal tooling infrastructure for the rest of the company to use.
 
 ### Software Engineer, Indix
 
 June 2017 - Feb 2019
 Indix was product intelligence platform offering services like product categorization, brand identification, standardized attribute extraction and product clustering for over two billion products.
 
-- Part of the Ingestion team responsible for crawling 20 million webpages a day.
-- Worked extensively in Scala on JVM, Kafka & Kafka streams.
+#### Ingestion
+
+- Part of the Ingestion team crawling 20 million pages/day.
+- Worked extensively in Scala on JVM, Hadoop (Scalding), Kafka & Kafka streams.
+
+- Built crawling infrastructure to fetch product information that spans multiple pages. Using puppeteer for this would have been detrimental to the crawl rate and would have also been very expensive.
+- Built an on-demand crawling infrastructure to find the pricing information of products across multiple e-commerce sites, parallelly.
+
+- Built a controlled environment to test seeders and parsers.
+- Improved the success rate of proxy-manager
+- Worked on normalizing urls in order to de-duplicate them
+
+#### Search
+
+- Built a search cache API that returns the results in an order dictated by an external system.
+- Built a search alias lookup for colloquial words.
+
+#### Internal tooling
+
 - Also responsible for maintenance and new features on several auxillary apps with a diverse stack that includes: Scala, dropwizard, Node.js on the backend and React.js in the frontend
-- Also responsible for the uptime of these apps. The applications were deployed on Mesos/Marathon.
+- Also responsible for the uptime of these apps on Mesos-Marathon.
 
 # Formal Education
 
@@ -56,11 +73,6 @@ Introduction to orchestration and feature comparison of Swarm, Mesos and Kuberne
 
 _Chennai Go meetup, March 2017_  
 Deploying a fully packaged go binary still involves a lot of boilerplate. Presented an alternative where a simple Kubernetes service can deploy any go binary dropped into it and explained how it can be recreated to fit particular needs.
-
-### Reclaiming your infrastructure with Kubernetes
-
-_Indian Linux User Group Chennai, March 2017_  
-There is a sentiment in the free software community that IaaS runs largely against the values of Free Software. A federated solution using Kubernetes brings parts of the infrastructure back in-house, reducing costs, without compromising on scalability.
 
 ### Docker internals
 
