@@ -18,33 +18,22 @@ My team builds automation and tooling that would help minimize the human effort 
 June 2017 - Feb 2019
 Indix was product intelligence platform offering services like product categorization, brand identification, standardized attribute extraction and product clustering for over two billion products.
 
-#### Ingestion
+My team built and maintained a distributed crawler-parser was responsible for processing 20 million pages per day. The team had a very strong Devops culture with a strong emphasis on CI/CD.
 
-- Part of the Ingestion team crawling 20 million pages/day.
-- Worked extensively in Scala on JVM, Hadoop (Scalding), Kafka & Kafka streams.
+My responsibility was to ensure critical sites stayed crawlable. I worked extensively in Scala and Kafka to add several improvements to the crawl-parse system including:
 
-- Built crawling infrastructure to fetch product information that spans multiple pages. Using puppeteer for this would have been detrimental to the crawl rate and would have also been very expensive.
-- Built an on-demand crawling infrastructure to find the pricing information of products across multiple e-commerce sites, parallelly.
+- Ability to fetch product information spanning multiple pages
+- On-demand crawling infrastructure to find products across multiple sites, parallelly.
+- Increasing proxy effeciency
+- Built several services with modern application frameworks on Scala and Node.js with a ReactJS frontend.
 
-- Built a controlled environment to test seeders and parsers.
-- Improved the success rate of proxy-manager
-- Worked on normalizing urls in order to de-duplicate them
-
-#### Search
-
-- Built a search cache API that returns the results in an order dictated by an external system.
-- Built a search alias lookup for colloquial words.
-
-#### Internal tooling
-
-- Also responsible for maintenance and new features on several auxillary apps with a diverse stack that includes: Scala, dropwizard, Node.js on the backend and React.js in the frontend
-- Also responsible for the uptime of these apps on Mesos-Marathon.
+I worked with product managers and also directly with the customers on feature requests and to understand pain points and fixed them. I also worked across teams to deliver many of these features.
 
 # Formal Education
 
 ### Anna University
 
-Bachelor of Engingeering, Computer Science | 2013 - 2017
+Bachelor of Engineering, Computer Science | 2013 - 2017
 
 # OSS
 
