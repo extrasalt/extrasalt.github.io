@@ -33,7 +33,7 @@ My responsibility was to ensure critical sites stayed crawlable. I worked extens
 
 - Ability to fetch product information spanning multiple pages
 - On-demand crawling infrastructure to find products across multiple sites, parallelly.
-- Increasing proxy effeciency
+- Increasing proxy efficiency
 - Built several services with modern application frameworks on Scala and Node.js with a ReactJS frontend.
 
 I worked with product managers and also directly with the customers on feature requests and to understand pain points and fixed them. I also worked across teams to deliver many of these features.
@@ -75,4 +75,4 @@ Deploying a fully packaged go binary still involves a lot of boilerplate. Presen
 ### Docker internals
 
 _Chennai Docker meetup, June 2017_  
-Explored how docker works internally and built a self-isolated go program to demonstrate systemcall interface used to create linux containers.
+Explored how docker works internally and built a self-isolated go program to demonstrate system-call interface used to create linux containers.
