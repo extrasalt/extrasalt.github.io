@@ -18,6 +18,7 @@ Mohan has also been organizing the Docker and Kubernetes Communities in Chennai 
 ### Software Engineer II , Avalara
 
 Feb 2019 - Present
+
 Avalara is a cloud-based compliance provider with a stated goal of being part of every transaction. This involves helping our customers respond to changes in tax rates, laws and levies.
 
 My team builds automation and tooling that would help minimize the human effort involved in responding to tax law changes. We are also responsible for integrating NLP models with the internal tooling infrastructure for the rest of the company to use.
@@ -25,9 +26,10 @@ My team builds automation and tooling that would help minimize the human effort 
 ### Software Engineer, Indix
 
 June 2017 - Feb 2019
+
 Indix was product intelligence platform offering services like product categorization, brand identification, standardized attribute extraction and product clustering for over two billion products.
 
-My team built and maintained a distributed crawler-parser was responsible for processing 20 million pages per day. The team had a very strong Devops culture with a strong emphasis on CI/CD.
+My team built and maintained a distributed crawler-parser responsible for processing 20 million pages per day. The team had a very strong Devops culture with a strong emphasis on CI/CD.
 
 My responsibility was to ensure critical sites stayed crawlable. I worked extensively in Scala and Kafka to add several improvements to the crawl-parse system including:
 
@@ -44,35 +46,42 @@ I worked with product managers and also directly with the customers on feature r
 
 Bachelor of Engineering, Computer Science | 2013 - 2017
 
-# OSS
+# OSS and Community
 
 ## Podder
 
-[Podder](http://github.com/extrasalt/podder) is a multi-tenant baremetal PaaS that runs on top of Kubernetes. It can deploy any go binary that is dropped into it, as a service if it exposes the HTTP port. Podder is an attempt at being the userspace of a distributed operating system.
+[Podder](http://github.com/extrasalt/podder) (2016) is a multi-tenant baremetal PaaS that runs on top of Kubernetes. It can deploy any go binary that is dropped into it, as a service if it exposes the HTTP port. Podder is an attempt at being the userspace of a distributed operating system.
 
-# Community Activities
+## Talks
 
-Organizer of the Chennai Docker community | Since Aug 2016  
-Co-Organizer of Chennai Go Community | Since Jan 2017
+I have been organizing the Docker and Kubernetes Communities in Chennai since 2016. These are some of my talks.
 
-# Talks
+### From VMs to containers and Back again
 
-### The State of the containers
+When Docker first came out and revolutionized the whole devops space, it seemed like containers were the future of workload isolation and virtual machines were all but dead before making a comeback. MicroVMs have been gaining traction since AWS released [Firecracker](https://github.com/firecracker-microvm/firecracker).
+In this talk, I explained how virtual machines fit into the modern kubernetes bound infrastructure. I spoke about the evolution of VMs while comparing Linux containers to traditional VMs and to microVMs
 
-_Chennai Docker meetup, November 2016_  
-The sudden rise of containers has led to a lot of bad practices. The talk explained what containers were, how they work internally, how to best avoid inefficient docker setups and how persistent storage works in stateless services.
+- Google Developer Group _January 2020_
+- Devday _January 2020_
+- Microsft Devengers _January 2020_
+- Go Community Meetup _February 2020_
 
-### Container Orchestration with Kubernetes and Swarm
+### Docker internals
 
-_Chennai Docker meetup, March 2017_  
-Introduction to orchestration and feature comparison of Swarm, Mesos and Kubernetes. Explained different Kubernetes Objects and demoed load balancing in a Kubernetes service. [Slides](http://slides.com/extrasalt/deck)
+_Chennai Docker meetup, June 2017_  
+Explored how docker works internally and built a self-isolated go program to demonstrate system-call interface used to create linux containers.
 
 ### Building a baremetal Go PaaS with Kubernetes
 
 _Chennai Go meetup, March 2017_  
 Deploying a fully packaged go binary still involves a lot of boilerplate. Presented an alternative where a simple Kubernetes service can deploy any go binary dropped into it and explained how it can be recreated to fit particular needs.
 
-### Docker internals
+### Container Orchestration with Kubernetes and Swarm
 
-_Chennai Docker meetup, June 2017_  
-Explored how docker works internally and built a self-isolated go program to demonstrate system-call interface used to create linux containers.
+_Chennai Docker meetup, March 2017_  
+Introduction to orchestration and feature comparison of Swarm, Mesos and Kubernetes. Explained different Kubernetes Objects and demoed load balancing in a Kubernetes service.
+
+### The State of the containers
+
+_Chennai Docker meetup, November 2016_  
+The sudden rise of containers has led to a lot of bad practices. The talk explained what containers were, how they work internally, how to best avoid inefficient docker setups and how persistent storage works in stateless services.
