@@ -1,27 +1,34 @@
-# Mohanarangan Muthukumar
+# Mohan Muthukumar
 
-Mohan is a Software Engineer at Avalara R&D. He's part of a fast-paced distributed team tasked with automating sales tax changes. He was previously with Indix, the largest product database company later acquired by Avalara. At Indix, he worked with large datasets, building and maintaining large distributed systems that crawled and parsed 2 billion products.
+Mohan is a Senior Software Engineer at Avalara R&D. He's part of a fast-paced distributed team building no code tools to automate sales tax changes. He was previously with Indix, the largest product database company later acquired by Avalara. At Indix, he worked with large datasets, building and maintaining large distributed systems that crawled and parsed 2 billion products.
 
-Mohan has also been organizing the Docker and Kubernetes Communities in Chennai since 2016. He's given several talks in the space including: Containerization, Container internals, Kubernetes Internals, Data processing in Kubernetes, Terraform and AWS firecracker microVMs.
+Mohan has also been heavily involved with the Cloud Native Communities in Chennai since 2016. He's given several talks in the space including: Containerization, Container internals, Kubernetes Internals, Data processing in Kubernetes, Terraform and AWS firecracker microVMs. Mohan is also the lead organizer of Chaos Carnival: Cloud Native Chaos Engineering Conference.
 
 # Skills
 
 - Kafka: Built streaming applications with both Scala and Typescript.
-- Kubernetes: Containerized several workloads. Involved with Docker, Kubernetes and Go (Golang) community since 2015.
-- AWS: Worked extensively with AWS and Terraform
-- APIs: Built several REST services on JVM and NodeJS.
-- Public Speaking: Hosted and Presented at several tech events.
+- Kubernetes: Containerized several workloads. 
+- Worked extensively with AWS and Terraform
+- Built several REST services in Golang, Node.js and a React frontend
+- Public Speaking: Hosted and Presented at several tech events. Involved with Docker, Kubernetes and Go (Golang) community since 2015.
 - Distributed Systems.
 
 # Professional Experience
 
+### Senior Software Engineer, Avalara
+
+March 2021 - Present
+
+Building internal no-code tools to enable non technical people to scrape unstructured content from official websites, transform them and build cadence / temporal workflows to reduce the manual effort involved in responding to tax law changes.
+
+
 ### Software Engineer II , Avalara
 
-Feb 2019 - Present
+Feb 2019 - March 2021
 
 Avalara is a cloud-based compliance provider with a stated goal of being part of every transaction. This involves helping our customers respond to changes in tax rates, laws and levies.
 
-My team builds automation and tooling that would help minimize the human effort involved in responding to tax law changes. We are also responsible for integrating NLP models with the internal tooling infrastructure for the rest of the company to use.
+I was part of the team that builds internal tooling to help automate sourcing tax law changes from official sources. I interacted with product managers and tax researchers to define and implement solutions for automation and integrate ML models into the workflow. I also mentored engineers as an added responsibility. 
 
 ### Software Engineer, Indix
 
