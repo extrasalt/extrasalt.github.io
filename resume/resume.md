@@ -6,11 +6,11 @@ Mohan has also been heavily involved with the Cloud Native Communities in Chenna
 
 # Skills
 
-- Kafka: Built streaming applications with both Scala and Typescript.
-- Kubernetes: Containerized several workloads. 
-- Worked extensively with AWS and Terraform
 - Built several REST services in Golang, Node.js and a React frontend
-- Public Speaking: Hosted and Presented at several tech events. Involved with Docker, Kubernetes and Go (Golang) community since 2015.
+- Built Kafka streams in both Scala and Typescript.
+- Worked extensively with AWS and Terraform
+- Kubernetes: Containerized several workloads. 
+- DevRel: Hosted and Presented at several tech events. Involved with Docker, Kubernetes and Go (Golang) community since 2015.
 - Distributed Systems.
 
 # Professional Experience
@@ -38,12 +38,12 @@ Indix was product intelligence platform offering services like product categoriz
 
 My team built and maintained a distributed crawler-parser responsible for processing 20 million pages per day. The team had a very strong Devops culture with a strong emphasis on CI/CD.
 
-My responsibility was to ensure critical sites stayed crawlable. I worked extensively in Scala and Kafka to add several improvements to the crawl-parse system including:
+One of my responsibilities was to ensure that the crawler-parser system stayed up and running. I also worked extensively with Kafka streams to add several improvements to the crawl-parse system including:
 
 - Ability to fetch product information spanning multiple pages
-- On-demand crawling infrastructure to find products across multiple sites, parallelly.
+- On-demand crawling infrastructure to find products across multiple sites in parallel.
 - Increasing proxy efficiency
-- Built several services with modern application frameworks on Scala and Node.js with a ReactJS frontend.
+- Built several services with modern application frameworks on JVM and Node.js with a ReactJS frontend.
 
 I worked with product managers and also directly with the customers on feature requests and to understand pain points and fixed them. I also worked across teams to deliver many of these features.
 
