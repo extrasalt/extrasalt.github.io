@@ -66,13 +66,8 @@ I hosted a podcast with several others from the Chennai CNCF community highlight
 
 ## Talk: From VMs to containers and Back again
 
-When Docker first came out and revolutionized the whole devops space, it seemed like containers were the future of workload isolation and virtual machines were all but dead before making a comeback. MicroVMs have been gaining traction since AWS released [Firecracker](https://github.com/firecracker-microvm/firecracker).
+MicroVMs have been gaining traction since AWS released [Firecracker](https://github.com/firecracker-microvm/firecracker).
 In this talk, I explained how virtual machines fit into the modern Kubernetes bound infrastructure. I spoke about the evolution of VMs while comparing Linux containers to traditional VMs and to microVMs
-
-- Google Developer Group _January 2020_
-- Devday _January 2020_
-- Microsft Devengers _January 2020_
-- Go Community Meetup _February 2020_
 
 ## Podder
 
