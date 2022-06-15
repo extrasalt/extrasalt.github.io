@@ -1,17 +1,15 @@
 # Mohan Muthukumar
 
-Mohan is a Senior Software Engineer at Avalara R&D building distributed no-code tools to automate sales tax changes. He was previously with Indix, the largest product database company later acquired by Avalara. At Indix, he worked with large datasets, building and maintaining large distributed systems that crawled and parsed 2 billion products.
+Mohan is a Senior Software Engineer at Avalara R&D building distributed infrastructure to crawl, parse and automate sales tax changes. He was previously with Indix, the largest product database company later acquired by Avalara. At Indix, he worked with large datasets, building and maintaining large distributed systems that crawled and parsed 2 billion products.
 
-Mohan has also been heavily involved with the Cloud Native Communities in Chennai since 2016. He's given several talks in the space including: Containerization, Container internals, Kubernetes Internals, Data processing in Kubernetes, Terraform and AWS firecracker microVMs. Mohan is also the lead organizer of Chaos Carnival: Cloud Native Chaos Engineering Conference.
+Mohan has also been heavily involved with the Cloud Native Communities in Chennai since 2016 helping organize meetups and conferences including Chaos Carnival and Kubernetes Community Days Chennai. He has given talks in the space including: Containerization, Container internals, Kubernetes Internals, Cadence/Temporal workflows. 
 
 # Skills
 
 - Built several REST services in Golang, Node.js and a React frontend
-- Built Kafka streams in both Scala and Typescript.
-- Worked extensively with AWS and Terraform
-- Kubernetes: Containerized several workloads. 
+- Microservices/Distributed systems: Have experience building complex distributed systems using Kafka streams and Cadence/Temporal workflows.
+- Manage the Infra Ops for services on AWS/Kubernetes with a good CI/CD setup.
 - DevRel: Hosted and Presented at several tech events. Involved with Docker, Kubernetes and Go community since 2015.
-- Distributed Systems
 
 # Professional Experience
 
@@ -19,14 +17,14 @@ Mohan has also been heavily involved with the Cloud Native Communities in Chenna
 
 March 2021 - Present
 
-Building internal no-code tools to enable non-technical people to scrape unstructured content from official websites, transform them and build cadence / temporal workflows to reduce the manual effort involved in responding to tax law changes.
+Avalara is a cloud-based compliance provider with a stated goal of being part of every transaction. This involves helping our customers respond to changes in tax rates, laws and levies.
+
+Building the content sourcing platform to enable non-technical people to scrape unstructured content from hundreds of thousands of sources and automate the manual effort involved in responding to changes. The platform is composed using temporal/cadence workflows with workflows handling the infrastructure lifecycle and business logic.
 
 
 ### Software Engineer II , Avalara
 
 Feb 2019 - March 2021 
-
-Avalara is a cloud-based compliance provider with a stated goal of being part of every transaction. This involves helping our customers respond to changes in tax rates, laws and levies.
 
 I was part of the team that builds internal tooling to help automate sourcing tax law changes from official sources. I interacted with product managers and tax researchers to define and implement solutions for automation and integrate ML models into the workflow. I also mentored engineers as an added responsibility. 
 
