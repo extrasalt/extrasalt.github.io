@@ -53,6 +53,9 @@ Bachelor of Engineering, Computer Science | 2013 - 2017
 
 # OSS and Community
 
+## Kubernetes Days Chennai
+I helped organize [Kubernetes community Days Chennai](https://community.cncf.io/events/details/cncf-kcd-chennai-presents-kubernetes-community-days-chennai-2022/). I also gave a talk on temporal workflows: [Microservices Madness: Application And Infrastructure Automation Using Temporal](https://www.youtube.com/watch?v=wnbhvC_j-qo)
+
 ## Chaos Carnival: Cloud Native Chaos Engineering Conference
 
 I helped organize [Chaos Carnival](https://chaoscarnival.io) a virtual conference for Chaos Engineering. The conference had a great speaker line up with several well-known names sharing their perspectives. 
