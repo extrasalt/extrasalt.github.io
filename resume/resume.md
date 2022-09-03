@@ -17,9 +17,11 @@ Mohan has also been heavily involved with the Cloud Native Communities in Chenna
 
 March 2021 - Present
 
-Avalara is a cloud-based compliance provider with a stated goal of being part of every transaction. This involves helping our customers respond to changes in tax rates, laws and levies.
+Avalara is a cloud-based compliance SaaS provider with the stated goal of being a part of every transaction in the world. This involves helping our customers respond to changes in tax rates, laws and other levies, automatic tax calculation and automated returns filing
 
-Building the content sourcing platform to enable non-technical people to scrape unstructured content from hundreds of thousands of sources and automate the manual effort involved in responding to changes. The platform is composed using temporal/cadence workflows with workflows handling the infrastructure lifecycle and business logic.
+My team builds distributed crawling infrastructure to detect changes and extract content from hundreds of thousands of sources including government websites. This content sourcing platform is composed of temporal workflows written in golang with workflows handling both the infrastructure lifecycle and business logic. It is deployed on Kubernetes and we are responsible for development, maintenance and ops of the system. The app has a react frontend.
+
+We work closely with some of the best tax researchers in the world enabling them to reduce the manual effort involved in responding to tax law changes.
 
 
 ### Software Engineer II , Avalara
