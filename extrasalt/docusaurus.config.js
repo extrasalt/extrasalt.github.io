@@ -66,7 +66,12 @@ const config = {
           //   label: 'Tutorial',
           // },
           {to: '/blog', label: 'Blog', position: 'right'},
-          {to: '/resume/', label: 'Resume', position: 'right'}
+          // {to: '/resume/', label: 'Resume', position: 'right'}, 
+          {
+            href: 'http://extrasalt.org/resume/',
+            position: 'right',
+            label: "Resume"
+          }
         ],
       },
       footer: {
