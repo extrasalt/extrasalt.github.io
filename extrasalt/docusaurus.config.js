@@ -69,7 +69,7 @@ const config = {
           //   position: 'right',
           //   label: 'Tutorial',
           // },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'right'},
           {to: '/resume/', label: 'Resume', position: 'right'}
         ],
       },
