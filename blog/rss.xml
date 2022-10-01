@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Mohan Muthukumar Blog</title>
+        <link>https://extrasalt.org/blog</link>
+        <description>Mohan Muthukumar Blog</description>
+        <lastBuildDate>Sat, 01 Oct 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Coming soon]]></title>
+            <link>https://extrasalt.org/blog/first-blog-post</link>
+            <guid>first-blog-post</guid>
+            <pubDate>Sat, 01 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The posts are being migrated to this new CMS. You should still be able to access them Here]]></description>
+            <content:encoded><![CDATA[<p>The posts are being migrated to this new CMS. You should still be able to access them <a target="_blank" href="/slides/">Here</a></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <category>under-construction</category>
+        </item>
+    </channel>
+</rss>

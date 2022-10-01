@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://extrasalt.org/blog</id>
+    <title>Mohan Muthukumar Blog</title>
+    <updated>2022-10-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://extrasalt.org/blog"/>
+    <subtitle>Mohan Muthukumar Blog</subtitle>
+    <icon>https://extrasalt.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Coming soon]]></title>
+        <id>first-blog-post</id>
+        <link href="https://extrasalt.org/blog/first-blog-post"/>
+        <updated>2022-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The posts are being migrated to this new CMS. You should still be able to access them Here]]></summary>
+        <content type="html"><![CDATA[<p>The posts are being migrated to this new CMS. You should still be able to access them <a target="_blank" href="/slides/">Here</a></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <author>
+            <name>Mohan Muthukuamr</name>
+        </author>
+        <category label="under-construction" term="under-construction"/>
+    </entry>
+</feed>

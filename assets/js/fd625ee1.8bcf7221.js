@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkextrasalt=self.webpackChunkextrasalt||[]).push([[687],{6933:t=>{t.exports=JSON.parse('{"label":"under-construction","permalink":"/blog/tags/under-construction","allTagsPath":"/blog/tags","count":1}')}}]);
