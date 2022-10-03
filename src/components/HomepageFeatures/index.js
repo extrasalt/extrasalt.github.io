@@ -2,50 +2,50 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-const FeatureList = [
+const Verticals = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Design',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Built several REST services in Golang, Node.js and a React frontend
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Distributed Systems',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       Have experience building complex distributed systems using Kafka streams and Cadence/Temporal workflows
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Devops',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       Manage the Infra Ops for services on AWS/Kubernetes with a good CI/CD setup.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+var boxStyle = {
+width: "400px",
+height: "208px",
+margin: 20,
+padding: 20,
+color: "white",
+
+background: "linear-gradient(180deg, #5C4EFF 0%, #8E31D8 100%)",
+borderRadius: "20px"
+}
+
+function Feature({title, description}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
-    </div>
+   <div style={boxStyle}>
+    <h2>{title}</h2>
+    {description}
+   </div>
   );
 }
 
@@ -54,7 +54,7 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
+          {Verticals.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
         </div>
