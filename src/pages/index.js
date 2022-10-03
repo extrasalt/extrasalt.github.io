@@ -7,13 +7,26 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
+var colorText = {
+  fontSize: 60,
+  fontWeight: 600,
+  textAlign: "left",
+  background: "linear-gradient(180deg, #5C4EFF 0%, #8E31D8 100%)",
+"-webkit-background-clip": "text",
+"-webkit-text-fill-color": "transparent",
+"background-clip": "text",
+"text-fill-color": "transparent",
+}
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+    <header className={clsx('hero', styles.heroBanner)}>
+      <div className="container" style={colorText}>
+        <>
+        I am Mohan. <br />
+        And I Build Things.
+        </>
       </div>
     </header>
   );
