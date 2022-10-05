@@ -14,9 +14,10 @@ CRI which stood for Container Runtime Interface established a contract between t
 Also stemming from the same event was OCI and the runc specification
 
 ### containerd
-As a result of these developments, Docker themselves re-architected their codebase to make it more modular. Everything that was specific to running the container was inside containerd. However, containerd wasn't CRI compliant. 
+You're likely already using this runtime because this is the one that comes with both Docker and the main Kubernetes distribution. 
+As a result of the aforementioned developments, the Docker team re-architected their codebase to make it more modular. Everything that was specific to running the container was inside containerd. So, All that Kubernetes needed was containerd. However, containerd wasn't CRI compliant. 
 
-So, an adapter: cri-containerd actually connects kubelet with containerd. This is the way vanilla Kubernetes has been working for a couple of years now. 
+So, a shim, cri-containerd, actually connects kubelet with containerd. For sometime, cri-containerd co-existed with the dockershim based runtime with dockershim being used by default. Eventually cri-containerd was made the default. This is the way vanilla Kubernetes has been working for a couple of years now. 
 
 ### CRI-O
 CRI-O was a project spearheaded by RedHat for their Openshift Kubernetes Distribution OKD. Since containerd wasn't specifically written for kubernetes and required the cri-containerd shim, RedHat decided that would make a container runtime that was both CRI and OCI compatiable (Hence the name)
@@ -28,14 +29,4 @@ Firecracker is not really a container runtime. Firecracker is a light weight VMM
 gVisor is a project from Google with a focus on security. It uses a userspace Kernel to intercept syscalls from the application running inside the container. But since it's an emulated Kernel essentially, it's naturally slow.
 
 ### Kata Containers
-This project uses qemu-kvm to spin help Kubernetes spin actual VMs and treat them as containers. 
-
-<!-- ### Lima
-### lxd
-### rkt
-### runc
-### Singularity
-### SmartOS
-### Sysbox
-### Inclavare Containers
-### WasmEdge Runtime -->
+This project uses qemu-kvm to spin help Kubernetes spin actual VMs and treat them as containers. The Katacontainers project was the result of a merger of Intel's clearcontainers and hyper.sh's runV projects.
