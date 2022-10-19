@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkextrasalt=self.webpackChunkextrasalt||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"A Survey of Different Container Runtimes for Kubernetes","permalink":"/blog/container-runtimes"},{"title":"Coming soon","permalink":"/blog/first-blog-post"}]}')}}]);
