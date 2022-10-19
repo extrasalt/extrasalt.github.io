@@ -2,14 +2,11 @@
 
 Mohan is a Senior Software Engineer at Avalara R&D building distributed infrastructure to crawl, parse and automate sales tax changes. He was previously with Indix, the largest product database company later acquired by Avalara. At Indix, he worked with large datasets, building and maintaining large distributed systems that crawled and parsed 2 billion products.
 
-Mohan has also been heavily involved with the Cloud Native Communities in Chennai since 2016 helping organize meetups and conferences including Chaos Carnival and Kubernetes Community Days Chennai. He has given talks in the space including: Containerization, Container internals, Kubernetes Internals, Cadence/Temporal workflows. 
-
 # Skills
 
 - Built several REST services in Golang, Node.js and a React frontend
 - Microservices/Distributed systems: Have experience building complex distributed systems using Kafka streams and Cadence/Temporal workflows.
 - Manage the Infra Ops for services on AWS/Kubernetes with a good CI/CD setup.
-- DevRel: Hosted and Presented at several tech events. Involved with Docker, Kubernetes and Go community since 2015.
 
 # Professional Experience
 
@@ -38,14 +35,7 @@ Indix was a product intelligence platform offering services like product categor
 
 My team built and maintained a distributed crawler-parser responsible for processing 20 million pages per day. The team had a very strong Devops culture with a strong emphasis on CI/CD.
 
-One of my responsibilities was to ensure that the crawler-parser system stayed up and running. I also worked extensively with Kafka streams to add several improvements to the crawl-parse system including:
-
-- Ability to fetch product information spanning multiple pages
-- On-demand crawling infrastructure to find products across multiple sites in parallel.
-- Increasing proxy efficiency
-- Built several services with modern application frameworks on JVM and Node.js with a ReactJS frontend.
-
-I worked with product managers and also directly with the customers on feature requests and to understand pain points and fixed them. I also worked across teams to deliver many of these features.
+One of my responsibilities was to ensure that the crawler-parser system stayed up and running. I also worked with Kafka streams to add several improvements to the crawl-parse system. I worked with product managers and also directly with the customers on feature requests and to understand pain points and fixed them. I also worked across teams to deliver many of these features.
 
 # Education
 
@@ -67,21 +57,16 @@ I helped organize [Chaos Carnival](https://chaoscarnival.io) a virtual conferenc
 I hosted a podcast with several others from the Chennai CNCF community highlighting different cloud native projects and various aspects of the cloud native ecosystem, emerging practices and transformations in the space and the industries' reaction to it. 
 
 
-## Talk: From VMs to containers and Back again
+# Awards
 
-MicroVMs have been gaining traction since AWS released [Firecracker](https://github.com/firecracker-microvm/firecracker).
-In this talk, I explained how virtual machines fit into the modern Kubernetes bound infrastructure. I spoke about the evolution of VMs while comparing Linux containers to traditional VMs and to microVMs
+### Quarterly Award - Demonstrating Leadership
 
-## Podder
+Aug 2022
 
-[Podder](http://github.com/extrasalt/podder) (2016) is a multi-tenant baremetal PaaS that runs on top of Kubernetes. It can deploy any go binary that is dropped into it, as a service if it exposes the HTTP port. Podder is an attempt at being the userspace of a distributed operating system.
+### Most Valuable Techie (quarterly) 
 
-### Talk: Building a baremetal Go PaaS with Kubernetes
+Feb 2020
 
-_Chennai Go meetup, March 2017_  
-Deploying a fully packaged go binary still involves a lot of boilerplate. Presented an alternative where a simple Kubernetes service can deploy any go binary dropped into it and explained how it can be recreated to fit particular needs.
+_Mohan was one of the first set of people to begin working on tax rate automation. Mohan showed attention to detail and data analysis skills when he investigated rate sources and the business logic definitions for rates.
 
-## Talk: Docker internals
-
-_Chennai Docker meetup, June 2017_  
-Explored how docker works internally and built a self-isolated go program to demonstrate system-call interface used to create linux containers.
+Mohan's contributions go well beyond office work; he has been an effective brand ambassador for Avalara in the Chennai dev community. Mohan also helped organize the very first Avalanche meetup in Chennai._
