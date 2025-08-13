@@ -1,15 +1,15 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import ReactMarkdown from "react-markdown";
-import remarkGfm from 'remark-gfm';
 import { useEffect, useState } from "react";
 import "./index.css";
-import {twMerge} from "tailwind-merge";
+import { twMerge } from "tailwind-merge";
+
+import resume from '../assets/resume.md'
 
 export function Resume() {
   const [markdown, setMarkdown] = useState("");
 
   useEffect(() => {
-    fetch("/api/resume")
+    fetch(resume)
       .then((res) => res.text())
       .then((text) => setMarkdown(text));
   }, []);

@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "motion": "^12.23.12",
-    "remark-gfm": "^4.0.1"
-  }
-}
