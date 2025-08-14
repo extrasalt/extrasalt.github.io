@@ -59,7 +59,7 @@ export function Home() {
           </p>
           <div className="flex gap-4 justify-center">
             <Button size="lg" asChild>
-                <a href="mailto:mohan@example.com">Book a Consultation</a>
+                <a href="https://www.linkedin.com/in/extrasalt/">Book a Consultation</a>
             </Button>
             <Button size="lg" variant="outline" asChild>
                 <Link to="/resume">View Full Resume</Link>
@@ -123,7 +123,7 @@ export function Home() {
                 Let's discuss how my expertise in AI, distributed systems, and cloud-native solutions can help you achieve your goals.
             </p>
             <Button size="lg" asChild>
-                <a href="mailto:mohan@example.com">Get in Touch</a>
+                <a href="https://www.linkedin.com/in/extrasalt/">Get in Touch</a>
             </Button>
         </section>
       </div>
