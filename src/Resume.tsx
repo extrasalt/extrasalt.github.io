@@ -2,16 +2,22 @@ import ReactMarkdown from "react-markdown";
 import { useEffect, useState } from "react";
 import "./index.css";
 import { twMerge } from "tailwind-merge";
+import { Skeleton } from "./components/ui/skeleton";
 
 import resume from '../assets/resume.md'
 
 export function Resume() {
   const [markdown, setMarkdown] = useState("");
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(resume)
-      .then((res) => res.text())
-      .then((text) => setMarkdown(text));
+    const fetchMarkdown = async () => {
+      const res = await fetch(resume);
+      const text = await res.text();
+      setMarkdown(text);
+      setLoading(false);
+    };
+    fetchMarkdown();
   }, []);
 
   const customComponents  = {
@@ -43,19 +49,23 @@ export function Resume() {
 
   return (
     <div className="bg-background text-foreground min-h-screen flex">
-      <div className="container mx-auto p-8 relative z-10">
+      <div className="container mx-auto w-[100%] p-8 relative z-10">
        <main className="grid gap-12">
           <section id="resume">
-
-
-
-                <ReactMarkdown
-                    components={customComponents}
-                >
-                  {markdown}
-                </ReactMarkdown>
-
-
+                {loading ? (
+                    <div className="flex flex-col justify-between h-[70vh] w-full space-y-4">
+                      <Skeleton className="h-10 w-100 rounded-lg" />
+                      <Skeleton className="h-1/3 w-full rounded-lg" />
+                      <Skeleton className="h-10 w-100 rounded-lg" />
+                      <Skeleton className="h-1/3 w-full rounded-lg" />
+                      <Skeleton className="h-10 w-100 rounded-lg" />
+                      <Skeleton className="h-1/3 w-full rounded-lg" />
+                    </div>
+                ) : (
+                    <ReactMarkdown components={customComponents}>
+                      {markdown}
+                    </ReactMarkdown>
+                )}
           </section>
         </main>
       </div>
