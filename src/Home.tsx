@@ -55,7 +55,7 @@ export function Home() {
             Lead Machine Learning Engineer & Distributed Systems Architect
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mt-6 mb-8">
-            I specialize in building scalable, AI-driven platforms and helping teams navigate the complexities of modern cloud-native infrastructure. Let's build something remarkable together.
+            I specialize in building <span className="bg-accent text-primary p-1 rounded-md">scalable</span> AI-driven platforms and helping teams navigate the complexities of modern cloud-native infrastructure. Let's build something <span className="bg-accent text-primary p-1 rounded-md">remarkable</span> together.
           </p>
           <div className="flex gap-4 justify-center">
             <Button size="lg" asChild>
@@ -85,7 +85,7 @@ export function Home() {
         </section>
 
         {/* Projects Section */}
-        <section id="projects" className="py-20 bg-secondary rounded-lg">
+        <section id="projects" className="py-20 bg-accent/80 rounded-lg px-4 border border-accent">
           <div className="container mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">Featured Projects & Contributions</h2>
             <div className="grid md:grid-cols-3 gap-8">
