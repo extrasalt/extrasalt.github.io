@@ -9,7 +9,7 @@ export function App() {
       <nav className="bg-background text-foreground p-4">
         <div className="container mx-auto flex justify-between">
           <img src={logo} alt="logo" className="w-10 h-10" />
-          <div>
+          <div className="text-sm uppercase font-bold [&>*]:p-1 [&>*]:rounded-md [&>*]:hover:bg-accent [&>*]:hover:text-primary transition-colors">
             <Link to="/" className="mr-4">Home</Link>
             <Link to="/resume">Resume</Link>
           </div>
