@@ -48,7 +48,7 @@ export function Resume() {
   };
 
   return (
-    <div className="bg-background text-foreground min-h-screen flex">
+    <div className="bg-background text-foreground min-h-screen flex max-w-4xl mx-auto">
       <div className="container mx-auto w-[100%] p-8 relative z-10">
        <main className="grid gap-12">
           <section id="resume">
